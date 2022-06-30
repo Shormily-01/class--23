@@ -1,0 +1,70 @@
+
+@media (max-width: 992px){
+   #header{
+      height: 415px;
+      width: 722px;
+   }
+}
+@media (max-width: 767px) {
+#header{
+height: 650px;
+width: 330px;
+flex-flow: column;
+}
+#header .header_item{
+border-bottom: 2px solid #c3161c;
+padding-top: 6px;
+}
+#header .post_name{
+   padding: 10px 0;
+   text-align: center;
+}
+#header .post_name h6{
+   font-size: 14px;
+   margin-bottom: 5px;
+}
+#header .post_name h4{
+   margin-bottom: 0;
+}
+#header .company_name{
+   justify-content: center;
+   margin-top: 0;
+   margin-bottom: 8px;
+}
+#header .intro{
+   margin-top: 10px;
+   margin-left: 0px;
+   text-align: center;
+}
+#header .intro .picture img{
+   width: 130px;
+   height: 130px;
+}
+#header .icon ul{
+   margin: 10px 0;
+}
+#header .intro .picture{
+  border-right: none; 
+}
+#header .intro .contact_items{
+   font-size: 15px;
+   margin: 3px 0 12px 0;
+}
+#header .intro .contact_items ul li{
+   text-align: center;
+}
+#header .intro .contact_icon ul li{
+   display: inline;
+}
+#header .intro .contact_icon ul li a i{
+   height: 34px;
+   width: 45px;
+   line-height: 34px;
+   margin-right: 10px;
+}
+#header .intro .quote p{
+   margin-top: 5px;
+   margin-left: 0;
+   text-align: center;
+}
+}
